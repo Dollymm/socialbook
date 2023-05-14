@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prfile-page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="index.html">
+        <img src="images/logo.png" class="logo" />
+      </a>
+        <ul>
+          <li><img src="images/notification.png" /></li>
+          <li><img src="images/inbox.png" /></li>
+          <li><img src="images/video.png" /></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="images/search.png" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="images/profile-pic.png" />
+        </div>
+      </div>
+      <!-- settings-menu -->
+      <div class="settings-menu">
+        <div id="dark-btn">
+          <span></span>
+        </div>
+
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="images/profile-pic.png" />
+            <div>
+              <p>Johnny</p>
+              <a href="#">See your profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="images/feedback.png" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help us to improve tha new design</a>
+            </div>
+          </div>
+          <hr />
+          <div class="setting-links">
+            <img src="images/setting.png" class="settings-icon" />
+            <a href="#"
+              >Settings & Privacy <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="setting-links">
+            <img src="images/help.png" class="settings-icon" />
+            <a href="#"
+              >Help & Support <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="setting-links">
+            <img src="images/display.png" class="settings-icon" />
+            <a href="#"
+              >Display & Accessibilty <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="setting-links">
+            <img src="images/logout.png" class="settings-icon" />
+            <a href="#">Logout<img src="images/arrow.png" width="10px" /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- profile page -->
+    <div class="profile-container">
+      <img src="images/cover.png" class="cover-img" />
+      <div class="profile-details">
+        <div class="pd-left">
+          <div class="pd-row">
+            <img src="images/profile.png" class="pd-image" />
+            <div>
+              <h3>Jack tbbck</h3>
+              <p>120 friends- 20 mutual friend</p>
+              <img src="images/member-1.png" />
+              <img src="images/member-2.png" />
+              <img src="images/member-3.png" />
+              <img src="images/member-4.png" />
+            </div>
+          </div>
+        </div>
+        <div class="pd-right">
+          <button type="button">
+            <img src="images/add-friends.png" />Friend
+          </button>
+          <button type="button"><img src="images/message.png" />Message</button>
+          <br />
+          <a href="#"><img src="images/more.png" /></a>
+        </div>
+      </div>
+      <div class="profile-info">
+        <div class="info-col">
+          <div class="profile-intro">
+            <h3>Intro</h3>
+            <p class="intro-text">Belive in yourself and you can do
+                 hhhhkkii.<img src="images/feeling.png"></p>
+                 <hr>
+                 <ul>
+                    <li><img src="images/profile-job.png">Director at 9o media btm</li>
+                    <li><img src="images/profile-study.png">Studied at IIT Bombay</li>
+                    <li><img src="images/profile-study.png">went to Dps delhi</li>
+                    <li><img src="images/profile-location.png">Lives in Banglore</li>
+                 </ul>
+          </div>
+          <div class="profile-intro">
+            <div class="title-box">
+                <h3>photos</h3>
+                <a href="">All Photos</a>
+            </div>
+            <p>120 (10 mutual)</p>
+            <div class="photo-box">
+                <div><img src="images/photo1.png"></div>
+                <div><img src="images/photo2.png"></div>
+                <div><img src="images/photo3.png"></div>
+                <div><img src="images/photo4.png"></div>
+                <div><img src="images/photo5.png"></div>
+                <div><img src="images/photo6.png"></div>
+
+            </div>
+
+          </div>
+          <div class="profile-intro">
+            <div class="title-box">
+                <h3>Friends</h3>
+                <a href="">All Friends</a>
+            </div>
+            <p>120 (10 mutual)</p>
+            <div class="Friend-box">
+                <div><img src="images/member-1.png">Dollu</div>
+                <div><img src="images/member-2.png">molu</div>
+                <div><img src="images/member-3.png">Miche</div>
+                <div><img src="images/member-4.png">tanisha</div>
+                <div><img src="images/member-5.png">devesh</div>
+                <div><img src="images/member-6.png">megha</div>
+                <div><img src="images/member-7.png">ahlau</div>
+                <div><img src="images/member-8.png">kalu</div>
+                <div><img src="images/member-9.png">mammu</div>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="post-col">
+          <div class="write-post-container">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" />
+              <div>
+                <p>Johnny</p>
+                <small>Public <i class="bx bxs-down-arrow"></i></small>
+              </div>
+            </div>
+            <div class="post-input-container">
+              <textarea
+                rows="3"
+                placeholder="What's on your mind,john?"
+              ></textarea>
+              <div class="add-post-links">
+                <a href="#"><img src="images/live-video.png" />Live Video</a>
+                <a href="#"><img src="images/photo.png" />Photo/Video</a>
+                <a href="#"><img src="images/feeling.png" />feeling/activity</a>
+              </div>
+            </div>
+          </div>
+          <div class="post-container">
+            <div class="post-container">
+              <div class="post-row">
+                <div class="user-profile">
+                  <img src="images/profile-pic.png" />
+                  <div>
+                    <p>Johnny</p>
+                    <span>May 11 2023,6:40 pm</span>
+                  </div>
+                </div>
+              </div>
+              <a href="#"><i class="bx bx-dots-vertical-rounded"></i></a>
+            </div>
+
+            <p class="post-text">
+              Hy Everyone My Name is Harshit.<span>@Harshit</span> Please
+              subscribe my channel to watch
+              <a href="#">Harshit Tech channel</a>
+            </p>
+            <img src="images/feed-image-1.png" class="post-img" />
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><i class="bx bxs-like"></i>120</div>
+                <div><i class="bx bxs-chat"></i>4</div>
+                <div><i class="bx bxs-share"></i> 20</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="images/profile-pic.png" />
+                <i class="bx bxs-down-arrow"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post-container">
+              <div class="post-row">
+                <div class="user-profile">
+                  <img src="images/profile-pic.png" />
+                  <div>
+                    <p>Shubham</p>
+                    <span>May 11 2023,6:40 pm</span>
+                  </div>
+                </div>
+              </div>
+              <a href="#"><i class="bx bx-dots-vertical-rounded"></i></a>
+            </div>
+
+            <p class="post-text">
+              Hy Everyone My Name is Harshit.<span>@Harshit</span> Please
+              subscribe my channel to watch
+              <a href="#">Harshit Tech channel</a>
+            </p>
+            <img src="images/feed-image-2.png" class="post-img" />
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><i class="bx bxs-like"></i>120</div>
+                <div><i class="bx bxs-chat"></i>4</div>
+                <div><i class="bx bxs-share"></i> 20</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="images/profile-pic.png" />
+                <i class="bx bxs-down-arrow"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post-container">
+              <div class="post-row">
+                <div class="user-profile">
+                  <img src="images/profile-pic.png" />
+                  <div>
+                    <p>Tanisha</p>
+                    <span>May 11 2023,6:40 pm</span>
+                  </div>
+                </div>
+              </div>
+              <a href="#"><i class="bx bx-dots-vertical-rounded"></i></a>
+            </div>
+
+            <p class="post-text">
+              Hy Everyone My Name is Harshit.<span>@Harshit</span> Please
+              subscribe my channel to watch
+              <a href="#">Harshit Tech channel</a>
+            </p>
+            <img src="images/feed-image-3.png" class="post-img" />
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><i class="bx bxs-like"></i>120</div>
+                <div><i class="bx bxs-chat"></i>4</div>
+                <div><i class="bx bxs-share"></i> 20</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="images/profile-pic.png" />
+                <i class="bx bxs-down-arrow"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post-container">
+              <div class="post-row">
+                <div class="user-profile">
+                  <img src="images/profile-pic.png" />
+                  <div>
+                    <p>Dolly</p>
+                    <span>May 11 2023,6:40 pm</span>
+                  </div>
+                </div>
+              </div>
+              <a href="#"><i class="bx bx-dots-vertical-rounded"></i></a>
+            </div>
+
+            <p class="post-text">
+              Hy Everyone My Name is Harshit.<span>@Harshit</span> Please
+              subscribe my channel to watch
+              <a href="#">Harshit Tech channel</a>
+            </p>
+            <img src="images/feed-image-4.png" class="post-img" />
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><i class="bx bxs-like"></i>120</div>
+                <div><i class="bx bxs-chat"></i>4</div>
+                <div><i class="bx bxs-share"></i> 20</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="images/profile-pic.png" />
+                <i class="bx bxs-down-arrow"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post-container">
+              <div class="post-row">
+                <div class="user-profile">
+                  <img src="images/profile-pic.png" />
+                  <div>
+                    <p>Abhilash</p>
+                    <span>May 11 2023,6:40 pm</span>
+                  </div>
+                </div>
+              </div>
+              <a href="#"><i class="bx bx-dots-vertical-rounded"></i></a>
+            </div>
+
+            <p class="post-text">fun time</p>
+            <img src="images/feed-image-5.png" class="post-img" />
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><i class="bx bxs-like"></i>120</div>
+                <div><i class="bx bxs-chat"></i>4</div>
+                <div><i class="bx bxs-share"></i> 20</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="images/profile-pic.png" />
+                <i class="bx bxs-down-arrow"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Copyright 2022 -</p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
